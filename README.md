@@ -5,15 +5,15 @@ Deploying Java Applications with Docker and Kubernetes
 ```
 mvn clean install -DskipTests
 ```
-##Create docker hub account
+* Create docker hub account
 
 ## Build the image in local 
 ```
-docker build -t Ajay6041/stockmanager:latest 
+docker build -t "image name" 
 ```
-##Push the image to your docker hub 
+## Push the image to your docker hub 
 ```
-docker push Ajay6041/shopfront:latest 
+docker push "image name"
 ```
 ### Go to kubernetes folder and create the pods 
 ```
